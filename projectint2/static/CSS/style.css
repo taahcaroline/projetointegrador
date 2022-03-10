@@ -1,0 +1,128 @@
+/* Botão de adicionar */
+#add-link{
+    text-decoration:none;
+}
+.add-div {
+    background-color:#000080;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+.fas.fa-plus{
+    color: #fff;
+    margin-right: 10px;
+    margin-left:5px;
+}
+
+/* Busca */
+.fas.fa-search{
+    position: absolute;
+    top: 12px;
+    right: 26px;
+}
+.search-div{
+    padding: 8px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* Cronograma */
+.list-div{
+    padding: 0;
+
+}
+.task-list{
+    padding-left: 0;
+}
+
+.task-item {
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding-top:10px;
+    border-bottom: 1px dashed #ccc;
+}
+/* .task-item.done {
+ background-color: #ccc;
+}  */
+
+/* .fas.fa-trash, .fas.fa-edit, .fas.fa-check {
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+
+}
+
+.fas.fa-trash{
+    color: #000000;
+
+}
+
+.fas.fa-edit{
+    color:#008000;
+}
+
+.fas.fa-check{
+    color:#ccc;
+} */
+.fas.fa-trash {
+    color: #000000;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+
+.fas.fa-edit {
+    color: #008000;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+
+.fa-check {
+    color: #CCC;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+.done .fa-check{
+    color:#3476e2;
+}
+
+/* Paginação */
+.pagination {
+  margin-bottom: 20px;
+}
+
+.step-links {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.step-links .current{
+    margin-left:5px;
+    margin-right:5px;
+}
+/* Rodapé */
+
+footer {
+    background-color:	#1E90FF;
+    height: 300px;
+    border-top: 2px solid blue;
+}
+
+footer p{
+    color: #f5f5f5;
+    text-align: center;
+    top:50%;
+    position:relative;
+}

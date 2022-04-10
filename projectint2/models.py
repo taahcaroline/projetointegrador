@@ -21,3 +21,12 @@ class Cronograma(models.Model):
 
     def __str__(self):
         return self.title
+
+class Conteudoprog(models.Model):
+    title = models.CharField('Nome da Vaga', max_length=500)
+    description = models.TextField('Conteúdo Progmático')
+    datainicio = models.DateField('Data da prova')
+    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title

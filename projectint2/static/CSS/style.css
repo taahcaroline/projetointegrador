@@ -96,6 +96,11 @@
 .done .fa-check{
     color:#3476e2;
 }
+/* Menu dropdown */
+.navbar ul li a {
+  color: #ffffff !important;
+}
+
 
 /* Paginação */
 .pagination {
@@ -111,13 +116,15 @@
 .step-links .current{
     margin-left:5px;
     margin-right:5px;
+
 }
+
 /* Rodapé */
 
 footer {
-    background-color:	#1E90FF;
+    background-color:#393b3d;
     height: 300px;
-    border-top: 2px solid blue;
+    border-top: 2px solid rgb(61, 61, 66);
 }
 
 footer p{

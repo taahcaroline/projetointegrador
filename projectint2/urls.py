@@ -10,6 +10,12 @@ urlpatterns = [
     path('concluircronograma/<int:id>/', views.donecron, name="concluircronograma"),
     path('editarcronograma/<int:id>/', views.editcron, name="editarcronograma"),
     path('deletarcronograma/<int:id>/', views.deletecron, name="deletarcronograma"),
+    path('editcronvest/<int:id>/', views.editcronvest, name="editcronvest"),
+    path('deletecronvest/<int:id>/', views.deletecronvest, name="deletecronvest"),
+    path('novaprova/', views.newvestib, name="novaprova"),
+    path('cronogramasconcurso/<int:id>/', views.conteudoprogview, name="conteudoprogview"),
+    path('cronogramasconcurso/', views.cronogramasconc, name="cronogramasconc"),
+    path('processoseletivo/', views.processoseletivo, name="processoseletivo"),
     
 
  ]

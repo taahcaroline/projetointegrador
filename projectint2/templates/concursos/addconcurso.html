@@ -2,12 +2,12 @@
 {% load crispy_forms_tags %}
 {% block content %}
 <div class="offset-1 col-10 list-div">
-    <h3>Adicione uma nova matéria aqui</h3>
+    <h3>Adicione um novo concurso/vestibular aqui</h3>
     <form method="POST">
         {% csrf_token %}
         {{ form | crispy }}
         <input type="submit" class="btn btn-success" value="Criar tarefa">
     </form>
 </div>{% endblock %}
-
-P
+<!-- 
+PAGINA PARA ADICIONAR NOVO CONCURSO/VESTIBULAR -->
